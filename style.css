@@ -49,6 +49,10 @@ a:hover {
   transition: color 0.3s ease;
 }
 
+.dropdown:hover{
+  color: #F1916D;
+}
+
 .dropdown-child {
   display: none;
   background-color: #1B3358;
@@ -100,6 +104,7 @@ img{
   font-size: 200%;
   z-index: 3;
 }
+
 .content{
   position: relative;
   margin: 10%;
