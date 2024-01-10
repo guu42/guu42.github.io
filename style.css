@@ -5,6 +5,20 @@ body {
   color: #fff;
 }
 
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #06142E;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#1B3358;
+  border-radius: 20px;
+  border: 4px solid #06142E;
+}
+
 .topbar {
   position: sticky;
   top: 0;
@@ -34,7 +48,7 @@ body {
   transition: color 0.3s ease;
 }
 
-a:hover {
+.menu a:hover {
   color: #F1916D;
 }
 
@@ -106,6 +120,8 @@ img{
 }
 
 .content{
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin: 10%;
 }
@@ -113,6 +129,10 @@ img{
 .content a {
   color: #fff;
   text-decoration: underline;
+}
+
+.content a:hover {
+  color: #F1916D;
 }
 
 .live{
