@@ -130,30 +130,38 @@ img{
 }
 
 .content{
-  display: flex;
-  flex-direction: column;
   position: relative;
   margin: 10%;
 }
 
-.content a {
-  color: #fff;
-  text-decoration: underline;
+.sections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.content a:hover {
-  color: #F1916D;
+.sections > div {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #06142E;
+}
+
+.sections img {
+  border-radius: 10px;
 }
 
 .live{
   border-radius: 10px;
+  margin: 20px;
 }
 
 .footer{
   position: relative;
   display: flex;
+  left: 0;
+  right: 0;
   bottom: 0%;
-  padding: 10px;
+  padding-top: 10px;
   background-color: #06142E;
   align-items: center;
   justify-content: center;
